@@ -1,0 +1,78 @@
+*{
+    border: 0px;
+    outline: none;
+    box-sizing: 0px;
+    position: relative;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100svh;
+    max-height: 100svh;
+
+    max-width: 100svw;
+
+    background-image: url("https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 60px 32px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+    z-index: 9;
+    transform: translate(-50%, -50%);
+}
+
+
+main li{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: whitesmoke;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.ico{
+    border: 1px solid;
+    padding: 10px 15px;
+    font-size: 50px;
+    border-radius: 100px;
+    color: whitesmoke;
+}
+
+
+
+.copy{
+    border: 1px solid black;
+    padding: 5px 8px;
+    border-radius: 100px;
+    color: black;
+}
+
+.copy:hover{
+    width: 50px;
+    height: 80%;
+    background-color: rgba(213, 212, 211, 0.521);
+    border-radius: 10px;
+    box-shadow: 0px 3px 24px -7px #4F75FF;
+
+}
